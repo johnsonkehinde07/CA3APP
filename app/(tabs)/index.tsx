@@ -1,8 +1,8 @@
-import { StyleSheet, Image } from 'react-native';
-import img from '@/assets/images/selfie.png';
-import { Text, View } from '@/components/Themed';
+import { StyleSheet, Image } from 'react-native';//Brings in React Native's built-in styling and image components.
+import img from '@/assets/images/selfie.png';//Imports an image from your local assets folder to use as a profile picture.
+import { Text, View } from '@/components/Themed';// These are custom themed versions of Text and View, giving your app consistent styles
 
-export default function TabOneScreen() {
+export default function TabOneScreen() {//Declares a React functional component named TabOneScreen and exports it as the default function.
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Hi, my name is Johnson Kehinde</Text>
